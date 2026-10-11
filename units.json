@@ -1,0 +1,57 @@
+{
+  "volume": {
+    "_base": "ml",
+    "units": {
+      "ml":   { "toBase": 1,        "system": "metric"   },
+      "l":    { "toBase": 1000,     "system": "metric"   },
+      "tsp":  { "toBase": 4.92892,  "system": "imperial" },
+      "tbsp": { "toBase": 14.7868,  "system": "imperial" },
+      "flOz": { "toBase": 29.5735,  "system": "imperial" },
+      "cup":  { "toBase": 236.588,  "system": "imperial" },
+      "cups": { "toBase": 236.588,  "system": "imperial" },
+      "pt":   { "toBase": 473.176,  "system": "imperial" },
+      "qt":   { "toBase": 946.353,  "system": "imperial" },
+      "gal":  { "toBase": 3785.41,  "system": "imperial" }
+    }
+  },
+  "weight": {
+    "_base": "g",
+    "units": {
+      "g":  { "toBase": 1,       "system": "metric"   },
+      "kg": { "toBase": 1000,    "system": "metric"   },
+      "oz": { "toBase": 28.3495, "system": "imperial" },
+      "lb": { "toBase": 453.592, "system": "imperial" },
+      "lbs":{ "toBase": 453.592, "system": "imperial" }
+    }
+  },
+  "count": {
+    "_base": "piece",
+    "units": {
+      "piece":  { "toBase": 1, "system": "both" },
+      "pieces": { "toBase": 1, "system": "both" },
+      "slice":  { "toBase": 1, "system": "both" },
+      "slices": { "toBase": 1, "system": "both" },
+      "clove":  { "toBase": 1, "system": "both" },
+      "cloves": { "toBase": 1, "system": "both" },
+      "pinch":  { "toBase": 1, "system": "both" },
+      "bunch":  { "toBase": 1, "system": "both" }
+    }
+  },
+  "ingredientDensity": {
+    "water":        1.0,
+    "milk":         1.03,
+    "heavy cream":  1.0,
+    "cream":        1.0,
+    "oil":          0.92,
+    "olive oil":    0.91,
+    "vegetable oil":0.92,
+    "honey":        1.42,
+    "flour":        0.53,
+    "sugar":        0.85,
+    "brown sugar":  0.72,
+    "salt":         1.22,
+    "butter":       0.91,
+    "rice":         0.75,
+    "oats":         0.34
+  }
+}
